@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+
+    <!-- FAVICON -->
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+
+    <!-- FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- ANIMATE ON SCROLL LIBRARY -->  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+
+    <!-- GLIDE JS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.core.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.5.0/css/glide.theme.css">
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header" id="home">
+
+        <!-- NAVIGATION -->
+        <nav class="nav">
+            <div class="navigation container">
+                <div class="logo">
+                    <h1>Daniel <span>N</span>ava</h1>
+                </div>
+
+                <div class="menu">
+                    <div class="top-nav">
+                        <div class="logo">
+                            <h1>Daniel <span>N</span>ava</h1>
+                        </div>
+
+                        <div class="close">
+                            <i class="fas fa-times"></i>
+                        </div>
+                    </div>
+
+                    <ul class="nav-list">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link scroll-link">Home</a>
+                            <a href="#about" class="nav-link scroll-link">About</a>
+                            <a href="#projects" class="nav-link scroll-link">Projects</a>
+                            <a href="#skills" class="nav-link scroll-link">Skills</a>
+                            <a href="#experience" class="nav-link scroll-link">Experience</a>
+                            <a href="#contact" class="nav-link scroll-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="bars">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HEADER IMAGE -->
+        <img src="./images/home-bg.png" alt="">
+
+        <!-- HERO -->
+        <div class="hero">
+            <h3>Hello, my name is</h3>
+            <h1>Daniel Nava</h1>
+            <h4>And I'm a <span id="type1" class="typeit"></span></h4>
+            <a href="#contact">Contact</a>
+        </div>
+
+        <div class="icons">
+            <span><i class="fab fa-linkedin"></i></span>
+            <span><i class="fab fa-instagram"></i></span>
+            <span><i class="fab fa-github"></i></span>
+        </div>
+
+        <!-- COLOR -->
+        <div class="control">
+            <div class="widget">
+                <i class="fas fa-cog"></i>
+            </div>
+
+            <div class="colors">
+                <span data-id="#03ffc7"></span>
+                <span data-id="#ff4600"></span>
+                <span data-id="#ce00ff"></span>
+                <span data-id="#0044ff"></span>
+            </div>
+        </div>
+
+    </header>
+
+    <!-- MAIN -->
+    <section class="section about" id="about">
+        <div class="title">
+            <h1>About me</h1>
+        </div>
+
+        <div class="about-center container">
+            <div class="left" data-aos="fade-right" data-aos-duration="1500">
+                <img src="./images/home-img.JPG" alt="">
+            </div>
+
+            <div class="right" data-aos="fade-left" data-aos-duration="1500">
+                <h1>I'm Daniel a <span id="type2"></span></h1>
+                <p>
+                    Student at La Salle University and Full Stack Developer Intern for 
+                    Listo.mx who loves to develop in programming, database management, 
+                    design of machine elements, electronics, looking to grow in the 
+                    professional world as a developer.
+                </p>
+                <a href="#" class="btn">Download</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SCRIPTS -->
+    <!-- AOS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <!-- TYPEIT -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"></script>
+    <!-- GLIDEJS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- GSAP -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <!-- CUSTOM SCRIPT -->
+    <script src="main.js"></script>
+</body>
+</html>
